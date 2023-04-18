@@ -1,0 +1,16 @@
+@use "../../abstracts/mixins";
+
+
+.header{
+    height: 20%;
+    width: 100%;
+    background: #eeee;
+    @include mixins.flexCenter;
+    gap:3rem;
+
+    &__logo, &__text{
+        font-size: 250%;
+    }
+  
+
+}

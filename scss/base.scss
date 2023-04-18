@@ -1,0 +1,13 @@
+@use "./abstracts/colors";
+@use "./abstracts/vars";
+
+body{
+    background: vars.$gradient ;
+    font-size: 2rem;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem;
+    font-family: vars.$font-family;
+    
+
+}

@@ -1,0 +1,4 @@
+@use "./colors";
+
+$gradient: linear-gradient(to bottom right, colors.$mid-orange,colors.$mid-dark-orange);
+$font-family:'Ubuntu', sans-serif; 

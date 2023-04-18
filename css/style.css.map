@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/base.scss","../scss/abstracts/_vars.scss","../scss/abstracts/_reset.scss","../scss/components/header/_header.scss","../scss/abstracts/_mixins.scss"],"names":[],"mappings":"AAGA;EACI,YCFO;EDGP;EACA;EACA;EACA;EACA,aCNS;;;ACHb;EACI;EACA;EACA;;;AAGJ;EACI;;;ACJJ;EACI;EACA;EACA;ECLA;EACA;EACA;EDKA;;AAEA;EACI","file":"style.css"}
