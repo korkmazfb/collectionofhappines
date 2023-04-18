@@ -1,17 +1,13 @@
-@use "../../abstracts/mixins";
 @use "../../abstracts/colors";
+@use "../../abstracts/mixins";
 
 
-.header{
-    height: 20%;
+
+
+.footer{
+    height: 15%;
     width: 100%;
     background: colors.$white-color;
     @include mixins.flexCenter;
     gap:3rem;
-
-    &__logo, &__text{
-        font-size: 250%;
-    }
-  
-
 }

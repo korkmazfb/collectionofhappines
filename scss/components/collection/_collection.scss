@@ -1,0 +1,15 @@
+@use "../../abstracts/colors";
+
+
+.collection{
+    background: colors.$white-color;
+    height: 65%;
+    width: 100%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
