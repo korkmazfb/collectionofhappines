@@ -1,0 +1,99 @@
+@media screen and  (max-width:75rem) {
+    .header__text {
+        font-size: 122%;
+    }
+    .collection {
+        background: white;
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        display: flex;
+        grid-template-columns: 40% 60%;
+        padding: 3rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+    }
+
+    .collection__section--right{
+        margin-top: 8rem;
+    }
+
+    .collection__bigimg{
+        position: absolute;
+    }
+
+    .collection__bigtext {
+        font-size: 1.2rem;
+        max-width: 40ch;
+        align-items: center;
+        display: flex;
+        height: 9rem;
+        overflow-y: scroll;
+        justify-content: center;margin-top: 1rem;
+    }
+    
+    
+    .collection__figure {
+        position: relative;
+        height: 20rem;
+        width: 20rem;
+        max-width: 40rem;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+    .collection__section--right {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .collection__audio{
+        width: 20rem;
+        height: 4rem;
+    }
+
+    .collection__link{
+        
+    }
+
+    .collection__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        
+    }
+
+    .collection__card{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 0.2rem;
+        position: relative;
+        display: flex;
+        transition-duration: 0.3s;
+    }
+
+    .footer__text{
+        margin-top: 10rem;
+        font-size: 1.2rem;
+    }
+
+    .collection__datum {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2rem;
+    }
+
+    .collection__title{
+        font-size: 2rem;
+    }
+    
+}
