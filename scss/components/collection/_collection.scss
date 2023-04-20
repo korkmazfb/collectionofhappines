@@ -11,5 +11,127 @@
     border-top-left-radius: 0.5rem;
     display: grid;
     grid-template-columns: 40% 60%;
+    padding: 3rem;
+
+    &__section{
+        display: flex;
+
+        &--left{
+            flex-direction: column;
+       
+        }
+
+        &--right{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+
+
+
+        
+        
+
+    }
+
+    &__cards{
+        width: 100%;
+        height: 100%;    
+        display: grid;
+        grid-template-columns: 50% 50%;
+        list-style: none;
+        grid-gap: 2rem;
+       
+        
+        
+    }
+
+    &__card{
+        height: 20rem;
+        width: 20rem;
+        border-radius: 0.2rem;
+        position: relative;
+        display: flex;
+        transition-duration: 0.3s;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.03);
+        }
+        
+    }
+
+    &__img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    &__datum{
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    &__title{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    &__figure{
+        position: relative;
+        height: 24rem;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+
+    &__datum2{
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    &__title2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    &__bigimg{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    &__bigtext{
+        height: 15rem;
+        overflow-y: scroll;
+    }
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 45rem;
+    }
+
+
+
+    &__link{
+        color: black;
+    }
+
+
 
 }
